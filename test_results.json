@@ -1,0 +1,205 @@
+{
+  "model": "llama3.2:3b",
+  "endpoint": "http://127.0.0.1:11434",
+  "temperature": 0.2,
+  "seed": 42,
+  "timestamp": "2026-11-15T12:22:35.120827+00:00",
+  "runs": [
+    {
+      "name": "Test 1",
+      "input": "A patient has a sore throat, fever, swollen lymph nodes and no cough.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      }
+    },
+    {
+      "name": "Test 2",
+      "input": "A patient has a sore throat, fever, swollen lymph nodes and no cough.",
+      "options": [
+        "High likelihood",
+        "None of these",
+        "Low likelihood",
+        "Medium likelihood"
+      ],
+      "result": {
+        "probabilities": {
+          "High likelihood": 0.8,
+          "None of these": 0.1,
+          "Low likelihood": 0.05,
+          "Medium likelihood": 0.05
+        },
+        "confidence": 0.9
+      },
+      "raw": {
+        "probabilities": {
+          "High likelihood": 0.8,
+          "None of these": 0.1,
+          "Low likelihood": 0.05,
+          "Medium likelihood": 0.05
+        },
+        "confidence": 0.9
+      }
+    },
+    {
+      "name": "Test 3",
+      "input": "The patient reports mild throat discomfort immediately after shouting at a concert. There is no fever, no swollen lymph nodes and no other symptoms suggesting infection.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.8,
+          "Medium likelihood": 0.1,
+          "High likelihood": 0.05,
+          "None of these": 0.05
+        },
+        "confidence": 0.95
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.8,
+          "Medium likelihood": 0.1,
+          "High likelihood": 0.05,
+          "None of these": 0.05
+        },
+        "confidence": 0.95
+      }
+    },
+    {
+      "name": "Test 4",
+      "input": "The patient has a sore throat and says they feel slightly unwell. No other information is available.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.2,
+          "Medium likelihood": 0.6,
+          "High likelihood": 0.1,
+          "None of these": 0.1
+        },
+        "confidence": 0.6
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.2,
+          "Medium likelihood": 0.6,
+          "High likelihood": 0.1,
+          "None of these": 0.1
+        },
+        "confidence": 0.6
+      }
+    },
+    {
+      "name": "Test 5 repeat 1",
+      "input": "A patient has a sore throat, fever, swollen lymph nodes and no cough.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      }
+    },
+    {
+      "name": "Test 5 repeat 2",
+      "input": "A patient has a sore throat, fever, swollen lymph nodes and no cough.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      }
+    },
+    {
+      "name": "Test 5 repeat 3",
+      "input": "A patient has a sore throat, fever, swollen lymph nodes and no cough.",
+      "options": [
+        "Low likelihood",
+        "Medium likelihood",
+        "High likelihood",
+        "None of these"
+      ],
+      "result": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      },
+      "raw": {
+        "probabilities": {
+          "Low likelihood": 0.01,
+          "Medium likelihood": 0.45,
+          "High likelihood": 0.54,
+          "None of these": 0.0
+        },
+        "confidence": 0.92
+      }
+    }
+  ]
+}
